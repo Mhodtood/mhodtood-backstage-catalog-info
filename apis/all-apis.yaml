@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: All APIs
+  description: Collection of all APIs in the organization
+spec:
+  targets:
+    - ./example.yaml

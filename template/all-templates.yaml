@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: All Templates
+  description: Collection of service templates
+spec:
+  targets:
+    - ./nodejs-template.yaml

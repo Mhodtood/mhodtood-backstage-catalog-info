@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: All Components
+  description: Collection of all components in the organization
+spec:
+  targets:
+    - ./example.yaml

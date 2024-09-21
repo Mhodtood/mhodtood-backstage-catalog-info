@@ -5,3 +5,13 @@ metadata:
 spec:
   type: team
   children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: dev-members
+  description: A group of developers
+spec:
+  targets:
+    - ./tp.babparn.yaml
