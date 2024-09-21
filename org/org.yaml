@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mhodtood-org
+  description: Mhodtood organization
+spec:
+  type: organization
+  children: [developers]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: Teams
+  description: A team under Mhodtood organization
+spec:
+  targets:
+    - ./developers/dev-group.yaml

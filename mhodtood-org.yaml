@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: mhodtood-org
+  description: Collection of all users/groups in the Mhodtood organization
+spec:
+  targets:
+    - ./org/org.yaml
