@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./nodejs-template.yaml
+    - ./spring-boot-kotlin-reactor-kafka-template.yaml
