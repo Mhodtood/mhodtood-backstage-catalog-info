@@ -5,5 +5,4 @@ metadata:
   description: Collection of service templates
 spec:
   targets:
-    - ./nodejs-template.yaml
     - ./spring-boot-kotlin-reactor-kafka-template.yaml
