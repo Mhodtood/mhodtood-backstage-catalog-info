@@ -5,6 +5,10 @@ metadata:
   name: spring-boot-kotlin-reactor-kafka-template
   title: Template for Spring Boot Kotlin based on Reactor Kafka
   description: A template for creating a Spring Boot Kotlin service that uses Reactor Kafka
+  tags:
+    - kotlin
+    - spring-boot
+    - kafka
 spec:
   owner: developers
   type: service
@@ -39,6 +43,7 @@ spec:
           ui:options:
             allowedKinds:
               - Group
+
   # These steps are executed in the scaffolder backend, using data that we gathered
   # via the parameters above.
   steps:
