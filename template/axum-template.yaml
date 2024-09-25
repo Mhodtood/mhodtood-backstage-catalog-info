@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: actix-template
+  name: axum-template
   title: Template for Rust Axum
   description: Scaffold a new Axum project
   tags:
