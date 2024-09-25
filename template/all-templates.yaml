@@ -6,3 +6,5 @@ metadata:
 spec:
   targets:
     - ./spring-boot-kotlin-reactor-kafka-template.yaml
+    - ./actix-template.yaml
+    - ./axum-template.yaml
